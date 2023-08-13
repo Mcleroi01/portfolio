@@ -169,6 +169,7 @@ font-size: 11px;
     
     padding: 10px 15px;
     background-color:  rgb(243, 248, 253);
+    
 }
 .cache2 .lecture .titre{
     font-size: 28px;
@@ -219,8 +220,87 @@ font-size: 11px;
     
  }
 
-/*Parcours 
+/* Parcours  */
 
+.cache3{
+    
+    padding: 10px 15px;
+    background-color:  rgb(227, 240, 255);
+    width: 100%;
+}
+.cache3 .lecture .titre{
+    font-size: 28px;
+    border-bottom: 1px solid blue;
+    
+      
+}
+
+.cache3 .lecture .b{
+width: 400px;
+height: 25px;
+color: rgb(0, 0, 0);
+font-size: 11px;
+
+}
+
+.cache3 .EXP{
+    
+    margin-left: 50%;
+    padding: 30px 20px;
+    width: 45%;
+    font-size: 11px;
+      
+   
+}
+.cache3 .EXP .ex1{
+    
+   border-bottom: 2px solid rgb(0, 84, 181);
+   border-top: 2px solid rgb(0, 84, 181);
+   width: 60%;
+   padding-bottom: 10%;
+      
+   
+}
+.cache3 .EXP .ex2{
+    
+    border-bottom: 2px solid rgb(0, 84, 181);
+    padding-bottom: 10%;
+    width: 60%;
+    
+       
+    
+ }
+ .cache3 .EXP .ex3{
+    
+    
+    padding-bottom: 10%;
+       
+    
+ }
+ .cache3 .EXP h2 span:hover{
+    
+    border: 1px solid blue;
+    border-radius: 50%;
+    
+       
+    
+ }
+
+.Contact{
+    padding-left: 30%;
+    
+
+} 
+.Contact input{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+
+}
+.Contact input:hover{
+    border: 2px solid  blue;
+
+}
 
 
 
