@@ -1,0 +1,228 @@
+body{
+    padding: auto;
+    
+
+
+
+}
+
+.contenaire{
+    display: inline;
+    
+}
+.contenaire nav{
+   
+    background-color: rgb(243, 248, 253);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1%;
+    text-align: center;
+    
+}
+.contenaire ul{
+    
+    list-style: none;
+    text-align: center;
+    
+}
+.contenaire ul li{
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+.contenaire ul li a{
+    color: rgb(0, 84, 181);
+    text-decoration: none;
+    
+}
+.contenaire ul li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.contenaire ul li a span{
+    padding-right: 800px;
+    color: black;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+.cache{
+
+    display: flex;
+    background-color:  rgb(227, 240, 255);
+    
+    
+    
+}
+.cache .lecture{
+    
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    padding-left: 1%;    
+}
+.cache .lecture h1{
+    width: 300px;
+    margin-top: 30%;
+    font-size: 50px;
+    color: rgb(0, 84, 181);
+    
+
+}
+.cache .lecture .com{
+    width: 300px;
+    
+
+}
+.cache .lecture .b{
+width: 75px;
+height: 25px;
+background-color: rgb(0, 84, 181);
+color: white;
+font-size: 11px;
+
+}
+
+.cache .titre{
+    
+    width: 50%;
+      
+   
+}
+.cache .titre .head{
+    text-align: center;
+    font-size: 30px;
+
+}
+.cache .titre .nom{
+    text-align: center;
+    color:  rgb(0, 84, 181);
+    font-size: 30px;
+
+
+}
+.cache .titre .profil{
+    margin-left: 35%;
+    border: 2px solid  rgb(0, 84, 181);
+    border-radius: 50%;
+
+}
+.cache .titre .social{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    
+    
+    
+
+}
+
+.cache .titre .social li{
+    display: inline-block;
+    
+    
+
+}
+.cache .titre .social li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    
+    
+
+}
+.cache .titre .social li a:hover{
+    color: black;
+    border-bottom: 2px solid blue;
+
+    
+    
+    
+
+}
+
+
+
+.cache .EXP{
+   
+    width: 25%;
+    margin-top: 10%;
+    font-size: 18px;
+   
+}
+.cache .EXP .Keys{
+   
+    margin-bottom: 60%;
+   
+}
+
+/*deuxieme partie css*/
+
+.cache2{
+    
+    padding: 10px 15px;
+    background-color:  rgb(243, 248, 253);
+}
+.cache2 .lecture .titre{
+    font-size: 28px;
+    border-bottom: 1px solid blue;
+    
+      
+}
+
+.cache2 .lecture .b{
+width: 400px;
+height: 25px;
+color: rgb(0, 0, 0);
+font-size: 11px;
+
+}
+
+.cache2 .EXP{
+    
+    margin-left: 50%;
+    padding: 30px 20px;
+    width: 45%;
+      
+   
+}
+.cache2 .EXP .ex1{
+    
+   border-bottom: 2px solid rgb(0, 84, 181);
+   border-top: 2px solid rgb(0, 84, 181);
+   width: 60%;
+   padding-bottom: 10%;
+      
+   
+}
+.cache2 .EXP .ex2{
+    
+    border-bottom: 2px solid rgb(0, 84, 181);
+    padding-bottom: 10%;
+    width: 60%;
+    
+       
+    
+ }
+ .cache2 .EXP .ex3{
+    
+    
+    padding-bottom: 10%;
+       
+    
+ }
+
+/*Parcours 
+
+
+
+
+
+
