@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.contenaire {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 248, 253);
+    width: 100%;
+    padding: 20px 50px;
+
+
+}
+
+.contenaire ul {
+
+    list-style: none;
+    text-align: center;
+
+}
+
+.contenaire ul li {
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+.contenaire ul li a {
+    color: rgb(0, 84, 181);
+    text-decoration: none;
+
+}
+
+.contenaire ul li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.contenaire ul li a span {
+
+    color: black;
+    font-size: 30px;
+
+}
+
+
+
+
+
+.cache {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 20px;
+
+
+}
+
+.cache .lecture {
+    flex-direction: column;
+    text-align: left;
+    width: 470px;
+    padding: 120px 0;
+
+
+
+
+
+}
+
+.cache .lecture h1 {}
+
+.cache .lecture .content{}
+
+.cache .lecture title {
+    padding: 50x 39px;
+
+
+}
+
+.cache .lecture .pdf {
+    padding: 30px 0px;
+
+
+}
+
+.cache .lecture .b a {
+    background-color: rgb(0, 0, 0);
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.cache .titre {
+    width: 470px;
+
+
+
+
+}
+
+.cache .titre .head {}
+
+.cache .titre .nom {}
+
+.cache .titre .profil {
+    border-radius: 50%;
+    border: 2px solid black;
+    background: rgb(216, 216, 216);
+
+
+
+}
+
+.cache .titre .social {
+    padding: 20px 0;
+
+
+
+
+
+}
+
+.cache .titre .social li {
+    display: inline-block;
+
+
+
+}
+
+.cache .titre .social li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+
+
+
+}
+
+.cache .titre .social li a:hover {
+    color: black;
+    border-bottom: 2px solid blue;
+
+
+
+
+
+}
+
+
+
+.cache .experience {
+    padding: 120px 0;
+    width: 470px;
+    font-size: 18px;
+
+}
+
+.cache .EXP .Keys {
+
+    margin-bottom: 60%;
+
+}
+
+/*deuxieme partie css*/
+
+.specialiste{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.specialiste .specialiste_txt{
+    width: 705px;
+}
+
+.specialiste .specialiste_txt h3{
+    font-size: 3rem;
+    border-bottom: 2px solid rgb(170, 239, 253);
+    
+}
+.specialiste .specialiste_txt p{
+    font-size: 0.8rem;
+    padding: 20px 0;
+    
+}
+.specialiste .specialiste_session{
+    width: 705px;
+    padding: 50px 100px;
+    text-align: left;
+}
+.specialiste .specialiste_session h2{
+    font-size: 1.4rem;
+    border-bottom: 2px solid rgb(170, 239, 253);
+    
+}
+/* Parcours  */
+
+.cache3 {}
+
+.cache3 .lecture .titre {}
+
+.cache3 .lecture .b {}
+
+.cache3 .EXP {}
+
+.cache3 .EXP .ex1 {}
+
+.cache3 .EXP .ex2 {}
+
+.cache3 .EXP .ex3 {}
+
+.cache3 .EXP h2 span:hover {}
+
+.Contact {}
+
+.Contact input {}
+
+.Contact input:hover {}
