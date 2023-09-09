@@ -6,15 +6,27 @@
 
 }
 
+
 .contenaire {
     display: flex;
     justify-content: space-between;
     background-color: rgb(243, 248, 253);
     width: 100%;
     padding: 20px 50px;
+    text-align: center;
 
 
 }
+.contenaire a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.contenaire a span{
+    font-size: 30px;
+}
+
 
 .contenaire ul {
 
@@ -247,6 +259,9 @@
     
     
     }
+    .contenaire a span{
+        font-size: 10px;
+    }
     
     .contenaire ul {
     
@@ -264,6 +279,7 @@
     .contenaire ul li a {
         color: rgb(0, 84, 181);
         text-decoration: none;
+        font-size: 10px;
     
     }
     
