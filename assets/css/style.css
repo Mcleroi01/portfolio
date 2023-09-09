@@ -42,7 +42,6 @@
 }
 
 .contenaire ul li a span {
-
     color: black;
     font-size: 30px;
 
@@ -56,7 +55,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 20px 20px;
+   
 
 
 }
@@ -65,22 +64,15 @@
     flex-direction: column;
     text-align: left;
     width: 470px;
-    padding: 120px 0;
-
-
-
-
-
+    padding: 50px;
+    
+    
 }
 
-.cache .lecture h1 {}
 
-.cache .lecture .content{}
+.cache .lecture p {
 
-.cache .lecture title {
-    padding: 50x 39px;
-
-
+   
 }
 
 .cache .lecture .pdf {
@@ -97,41 +89,27 @@
     text-decoration: none;
 }
 
-.cache .titre {
+.cache .titre{
     width: 470px;
-
-
-
+   
 
 }
 
-.cache .titre .head {}
-
-.cache .titre .nom {}
 
 .cache .titre .profil {
     border-radius: 50%;
     border: 2px solid black;
-    background: rgb(216, 216, 216);
-
-
+    /* background: rgb(216, 216, 216); */
+   
 
 }
 
 .cache .titre .social {
     padding: 20px 0;
-
-
-
-
-
 }
 
 .cache .titre .social li {
     display: inline-block;
-
-
-
 }
 
 .cache .titre .social li a {
@@ -156,9 +134,9 @@
 
 
 .cache .experience {
-    padding: 120px 0;
     width: 470px;
     font-size: 18px;
+    padding: 50px;
 
 }
 
@@ -170,37 +148,41 @@
 
 /*deuxieme partie css*/
 
-.specialiste{
+.specialiste {
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
     text-align: left;
 }
 
-.specialiste .specialiste_txt{
+.specialiste .specialiste_txt {
     width: 705px;
 }
 
-.specialiste .specialiste_txt h3{
+.specialiste .specialiste_txt h3 {
     font-size: 3rem;
     border-bottom: 2px solid rgb(170, 239, 253);
-    
+
 }
-.specialiste .specialiste_txt p{
+
+.specialiste .specialiste_txt p {
     font-size: 0.8rem;
     padding: 20px 0;
-    
+
 }
-.specialiste .specialiste_session{
+
+.specialiste .specialiste_session {
     width: 705px;
     padding: 50px 100px;
     text-align: left;
 }
-.specialiste .specialiste_session h2{
+
+.specialiste .specialiste_session h2 {
     font-size: 1.4rem;
     border-bottom: 2px solid rgb(170, 239, 253);
-    
+
 }
+
 /* Parcours  */
 
 .cache3 {}
@@ -219,8 +201,255 @@
 
 .cache3 .EXP h2 span:hover {}
 
-.Contact {}
+.about{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: rgb(204, 232, 255);
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
 
-.Contact input {}
+.abonne{
+    align-items: center;
+    padding: 10px 0;
 
-.Contact input:hover {}
+}
+
+.abonne input[type='text']{
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    margin: 8px;
+}
+.abonne input[type='button']{
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: rgb(0, 165, 94);
+    border: none;
+    margin: 8px;
+    color: white;
+}
+@media(max-width:480px){
+    .contenaire {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(243, 248, 253);
+        width: 100%;
+        padding: 20px 50px;
+    
+    
+    }
+    
+    .contenaire ul {
+    
+        list-style: none;
+        text-align: center;
+    
+    }
+    
+    .contenaire ul li {
+        display: inline-block;
+        padding-left: 10px;
+    
+    }
+    
+    .contenaire ul li a {
+        color: rgb(0, 84, 181);
+        text-decoration: none;
+    
+    }
+    
+    .contenaire ul li a:hover {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    
+    }
+    
+    .contenaire ul li a span {
+    
+        color: black;
+        font-size: 15px;
+    
+    }
+
+    .cache {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 10px;
+        
+    
+    
+    }
+    
+    .cache .lecture {
+        flex-direction: column;
+        text-align: left;
+        padding: 30px 10px;
+        width: 414px;
+    }
+    
+    
+    .cache .lecture title {
+        padding: 50px 39px;
+    
+    
+    }
+    
+    .cache .lecture .pdf {
+        padding: 30px 0px;
+    
+    
+    }
+    
+    .cache .lecture .b a {
+        background-color: rgb(0, 0, 0);
+        padding: 15px 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .cache .titre {
+        width: 414px;
+    }
+    
+   
+    .cache .titre .profil {
+        border-radius: 50%;
+        border: 2px solid black;
+        background: rgb(216, 216, 216);
+    }
+    
+    .cache .titre .social {
+        padding: 10px 0;
+        
+    }
+    
+    .cache .titre .social li {
+        display: inline-block;
+    
+    
+    
+    }
+    
+    .cache .titre .social li a {
+        display: block;
+        color: black;
+        text-decoration: none;
+    
+    
+    
+    }
+    
+    .cache .titre .social li a:hover {
+        color: black;
+        border-bottom: 2px solid blue;
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    .cache .experience {
+        padding: 10px 0;
+        font-size: 20px;
+        width: 414px;
+    
+    }
+
+    .specialiste {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px;
+        text-align: left;
+       
+    }
+    
+    .specialiste .specialiste_txt {
+        padding: 10px 10px;
+        text-align: left;
+        width: 414px;
+        
+        
+    }
+    
+    .specialiste .specialiste_txt h3 {
+        font-size: 1.6rem;
+        color: black;
+        border-bottom: 2px solid rgb(170, 239, 253);
+    
+    }
+    
+    .specialiste .specialiste_txt p {
+        font-size: 0.6rem;
+        padding: 1px 0;
+
+    
+    }
+    
+    .specialiste .specialiste_session {
+        padding: 0 0;
+        width: 414px;
+    }
+    
+    .specialiste .specialiste_session h2 {
+        text-align: left;
+        width: 414px;
+        padding: 10px 10px;
+        font-size: 0.8rem;
+        border-bottom: 2px solid rgb(170, 239, 253);
+    
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: rgb(204, 232, 255);
+        padding: 10px 20px;
+        text-align: center;
+        width: 414px;
+        height: 100%;
+    }
+    
+    .abonne{
+        align-items: center;
+        padding: 10px 0;
+    
+    }
+    
+    .abonne input[type='text']{
+        align-items: center;
+        width: 150px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: rgb(217, 217, 217);
+        border: none;
+        margin: 8px;
+    }
+    .abonne input[type='button']{
+        align-items: center;
+        width: 300px;
+        height: 30px;
+        border-radius: 9px;
+        background-color: rgb(0, 165, 94);
+        border: none;
+        margin: 8px;
+        color: white;
+    }
+    
+    
+
+}
